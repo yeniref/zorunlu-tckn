@@ -13,7 +13,7 @@
 // SOAP Uyarısı
 function add_soap_warning() {
     echo '<div class="notice notice-warning is-dismissible">
-        <p><strong>Önemli Bilgi:</strong> Bu eklenti SOAP protokolünü kullanarak Türk Kimlik Numarası (TCKN) doğrulaması yapmaktadır. SOAP protokolü, sunucunuzun SOAP istemcisini desteklemesini gerektirir. Lütfen sunucunuzun SOAP istemcisini etkinleştirdiğinizden ve SOAP istemcisini kullanabilecek yetkilere sahip olduğunuzdan emin olun.</p>
+        <p><strong>Önemli Bilgi:</strong> TCKN Zorunluluk SOAP protokolünü kullanarak Türk Kimlik Numarası (TCKN) doğrulaması yapmaktadır. SOAP protokolü, sunucunuzun SOAP istemcisini desteklemesini gerektirir. Lütfen sunucunuzun SOAP istemcisini etkinleştirdiğinizden ve SOAP istemcisini kullanabilecek yetkilere sahip olduğunuzdan emin olun.</p>
     </div>';
 }
 add_action('admin_notices', 'add_soap_warning');
